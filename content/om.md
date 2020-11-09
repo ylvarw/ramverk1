@@ -16,13 +16,15 @@ views:
                 type: single
                 route: block/om-redovisa
 ---
-Om
+Om Ramverk1
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+I kursen Ramverk1 så kommer vi hae en större fördjupning av ramverk för webb och focus ligger på ramverket Anax.
+Denna sida är byggd som en del i kursen Ramverk1 för redovisningar av kursmoment och är basserat på Anax och PHP.
+Sidans innehåll är skrivet med markdown.
 
-Skriv några kloka ord om kursen?
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+
+[FIGURE src=image/noriSleep.jpg?w=300 caption="Sovkatt."]
+

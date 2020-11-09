@@ -7,6 +7,9 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Lato:ital@1&display=swap');
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -40,6 +43,7 @@
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    font-family: 'Lato', sans-serif;
   }
   /* Grouping content
      ========================================================================== */
@@ -60,7 +64,8 @@
    * 2. Correct the odd `em` font sizing in all browsers.
    */
   pre {
-    font-family: monospace, monospace;
+    /* font-family: monospace, monospace; */
+    font-family: 'Gotu', sans-serif;
     /* 1 */
     font-size: 1em;
     /* 2 */
@@ -72,6 +77,8 @@
    */
   a {
     background-color: transparent;
+    color: rgb(20, 99, 99);
+
   }
   /**
    * 1. Remove the bottom border in Chrome 57-
@@ -154,6 +161,7 @@
     /* 1 */
     margin: 0;
     /* 2 */
+    font-family: 'Gotu', sans-serif;
   }
   /**
    * Show the overflow in IE.
@@ -5947,7 +5955,8 @@
   }
   .profile .ucp a:hover,
   .profile .login a:hover {
-    color: #9FB129;
+    color: rgb(20, 99, 99);
+    /* color: #9FB129; */
   }
   .profile .ucp .icon,
   .profile .login .icon {
@@ -6018,7 +6027,8 @@
     transition: color 0.1s ease;
   }
   a.rm-button.rm-clicked {
-    color: #9FB129;
+    color: rgb(20, 99, 99);
+    /* color: #9FB129; */
     background-color: transparent;
   }
   a.rm-button.rm-clicked .rm-button-face-1 {
@@ -6137,7 +6147,8 @@
     color: inherit;
   }
   .rm-max .rm-small .rm-button.rm-clicked {
-    color: #9FB129;
+    color: rgb(20, 99, 99);
+    /* color: #9FB129; */
     position: fixed;
     top: 16px;
     right: 24px;
@@ -6247,7 +6258,8 @@
   .rm-navbar-top .rm-desktop li.selected a,
   .rm-navbar-top .rm-desktop a:hover {
     color: #3B440D;
-    text-shadow: 0px 0px 1px #9FB129;
+    text-shadow: 0px 0px 1px rgb(20, 99, 99);
+    /* text-shadow: 0px 0px 1px #9FB129; */
     text-decoration: underline;
   }
   .rm-navbar-top .rm-desktop li.selected a {
@@ -6561,6 +6573,7 @@
     width: 57.29166667%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    /* background-color: #205791; */
   }
   .profile,
   .region-header-col-3 {
@@ -6578,6 +6591,7 @@
       width: 69.79166667%;
       margin-left: 0.52083333%;
       margin-right: 0.52083333%;
+      /* background-color: #205791; */
     }
     .profile,
     .region-header-col-3 {
@@ -6604,6 +6618,7 @@
       width: 65.625%;
       margin-left: 0.52083333%;
       margin-right: 0.52083333%;
+      /* background-color: #205791; */
     }
   }
   @media screen and (max-width: 800px) {
@@ -6634,7 +6649,10 @@
   .site-logo-text {
     font-size: 42px;
     line-height: 1;
-    text-shadow: 2px -2px 2px #ccc;
+    text-shadow: 2px -2px 2px rgb(20, 99, 99);
+    /* color: rgb(20, 99, 99); */
+
+    /* text-shadow: 2px -2px 2px #ccc; */
   }
   .site-logo-text a {
     color: #333;
@@ -6643,7 +6661,7 @@
   }
   .site-logo-text a:hover {
     color: #3B440D;
-    text-shadow: 2px -2px 2px #9FB129;
+    text-shadow: 2px -2px 2px rgb(20, 99, 99);
   }
   .site-logo-text-icon img {
     vertical-align: bottom;
@@ -6772,7 +6790,8 @@
   .columns-above .block h4 a:hover,
   .columns-below .block h4 a:hover {
     color: #3B440D;
-    text-shadow: 0px 0px 1px #9FB129;
+    text-shadow: 0px 0px 1px rgb(20, 99, 99);
+    /* text-shadow: 0px 0px 1px #9FB129; */
     text-decoration: underline;
   }
   /** ==============================================================
@@ -6925,6 +6944,8 @@
   }
   .rm-menu-button {
     font-size: 1.5em;
+    /* background-color: #205791; */
+    border-bottom: 1px solid rgb(20, 99, 99);
   }
   .rm-desktop li ul {
     background-color: #fff;
@@ -6936,7 +6957,7 @@
   /**
    * My settings.
    */
-  
+   /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
   
    /*  */
    body {
@@ -6944,14 +6965,19 @@
     background-color: lavender;
   }
   
-  
+  .region-header-col-2 {
+    /* color: #1F811F !important; */
+  }
   
   p {
     font-family: 'Gotu', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
   }
   
   h1 {
     color: rgb(20, 99, 99);
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 400; */
     /* background-color: #1F811F !important; */
   }
   
