@@ -1,3 +1,8 @@
-#### Footer col 1
+#### Länkar
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[CSS-tricks](https://css-tricks.com/)
+
+[w3schools](https://www.w3schools.com/cssref/)
+
+[PHP](https://www.php.net/)
+
